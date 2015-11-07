@@ -14,3 +14,177 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+ @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+// 2D4671 blue
+
+// FF0000 red
+
+ html, body, .thumbnail, .caption {
+   font-family: 'Montserrat', sans-serif;
+   color: #2D4671;
+   background-color: #F5F3EE;
+ }
+
+ body {
+   margin: auto 0;
+   padding-top: 60px;
+ }
+
+ h3 {
+   font-size: 18px;
+ }
+
+ .center-img {
+   text-align: center;
+ }
+
+ .thumbnail .caption {
+   color: #2D4671;
+ }
+
+ .meal-plan {
+   width: 300px;
+ }
+
+ .background-jumbo {
+   background-color: #2D4671;
+   /*opacity: 0.5;*/
+ }
+
+ .jumbotron {
+   /*text-align: center;*/
+   color: #F5F3EE;
+ }
+
+ .jumbotron h1 {
+   font-size: 50px;
+ }
+
+ .jumbotron a {
+   /*text-align: center;*/
+   color: #83CC38;
+ }
+
+
+ /*.jumbotron h1 {
+   font-size: 7em;
+ }*/
+
+ .jumbotron p {
+   color: #F5F3EE;
+
+ }
+
+ .resource-home img {
+   height: 500px;
+ }
+
+
+ .imageBoxShadow img, .contact-height img{
+   box-shadow: 0 8px 6px -6px black;
+ }
+
+ .show-img {
+  //  width: 65%;
+ }
+
+ .show-img img {
+  //  width: 100%;
+   text-align: center;
+   padding: 10px;
+ }
+
+
+ .show-text p {
+   padding-left: 10%;
+   padding-right: 10%;
+ }
+
+ /* Meal Plan Page */
+
+ .meal_plan ul {
+   list-style: none;
+   padding: 0;
+   margin-left: 20px;
+   margin-right: 20px;
+   display: inline-block;
+ }
+
+ /*.meal_plan ul li {
+   margin: 20px;
+ }
+ */
+
+
+ /* ### Navigation #### */
+
+ .navbar-inverse {
+   color: #000;
+   background-image: linear-gradient(to bottom,#2D4671 0,#2D4671 100%);
+   border-color: #2D4671;
+ }
+
+ .navbar-inverse .navbar-nav>li>a {
+   color: #fff;
+ }
+
+ .navbar-inverse .navbar-nav>li>a:hover {
+   color: #428bca;
+ }
+
+ .navbar-inverse .navbar-brand>a:hover {
+   color: #428bca;
+ }
+
+ .navbar-inverse .navbar-brand {
+   color: #428bca;
+ }
+
+
+ .navbar-brand img {
+   width: 45px;
+ }
+
+
+ /* #### Buttons Styling ### */
+
+  .btn-primary {
+   background: #2D4671;
+   /*border: 2px solid #1D4D4A;*/
+   color: #F5F3EE;
+   text-shadow: none;
+  }
+
+
+   .btn-primary:hover, .btn-primary:focus, .open > .dropdown-toggle.btn-primary {
+     background: #F5F3EE;
+     border-color: #2D4671;
+     color: #2D4671;
+   }
+
+   .btn-primary:active, .btn-primary.active {
+     border-color: #39c0ba;
+     box-shadow: none;
+   }
+
+   .btn-primary>a {
+  /*  background: #fff;
+    border: 2px solid #1D4D4A;*/
+    color: #F5F3EE;
+   }
+
+    .btn-primary>a:hover{
+     color: #4A96AD;
+     text-decoration: none;
+  }
+
+
+// resource show page
+.resource-h1 h1 {
+  text-align: center;
+}
+
+.resource-image img {
+
+}
