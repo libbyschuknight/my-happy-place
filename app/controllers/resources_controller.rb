@@ -1,7 +1,15 @@
 class ResourcesController < ApplicationController
 
   def index
+    # if click ALL link
+    #   go to
+    #   @resources = Resource.all
+    # else
+    #   redirect_to resource_path("9")
+    # end
     @resources = Resource.all
+
+
   end
 
   def show

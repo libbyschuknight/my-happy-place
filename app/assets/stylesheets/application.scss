@@ -92,14 +92,23 @@
    box-shadow: 0 8px 6px -6px black;
  }
 
+
+ // resource show page
+ .resource-h1 h1 {
+   text-align: center;
+ }
+
  .show-img {
-  //  width: 65%;
+  //  margin: auto 0;
+   position: relative;
+   text-align: center;
  }
 
  .show-img img {
-  //  width: 100%;
+   max-width: 100%;
+   max-height: 50%;
    text-align: center;
-   padding: 10px;
+   padding-bottom: 10px;
  }
 
 
@@ -108,11 +117,10 @@
    padding-right: 10%;
  }
 
-.box-index {
-  // background-color: red;
-  // float: left;
-  position: relative;
-}
+ .prev-next {
+   text-align: center;
+ }
+
 
 
  /* Meal Plan Page */
@@ -192,13 +200,3 @@
      color: #4A96AD;
      text-decoration: none;
   }
-
-
-// resource show page
-.resource-h1 h1 {
-  text-align: center;
-}
-
-.resource-image img {
-
-}
