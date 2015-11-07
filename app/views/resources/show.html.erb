@@ -7,12 +7,17 @@
 
 <div class="row">
   <div class = "col-md-12 show-img" >
-    <%= image_tag @resource.image, { class: "center-block imageBoxShadow" } %>
+    <%= image_tag @resource.image, { class: "center-block imageBoxShadow " } %>
   </div>
 </div>
 
 <div class="row">
   <div class = "col-md-12 show-text">
     <p> <%= @resource.notes %> </p>
+  </div>
+  <div class = "col-md-12 prev-next">
+    <%= link_to "Previous", @previous_resource, :class => "btn btn-primary"%>
+    &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;
+    <%= link_to "Next", @next_resource, :class => "btn btn-primary" %>
   </div>
 </div>

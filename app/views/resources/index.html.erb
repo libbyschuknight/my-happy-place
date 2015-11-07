@@ -16,7 +16,7 @@
 <div class="row text-center">
 
   <% @resources.each do | resource | %>
-    <div class="col-md-3 col-sm-6 hero-feature">
+    <div class="col-md-3 col-sm-6 hero-feature box-index">
       <div class="thumbnail">
         <%= link_to (image_tag (resource.image)), resource_path(resource), :class => "resource-home imageBoxShadow" %>
 
