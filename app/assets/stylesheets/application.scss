@@ -12,13 +12,12 @@
  *
  */
 
- @import "bootstrap-sprockets";
- @import "bootstrap";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 
  @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-// 2D4671 blue
 
-// FF0000 red
 
  html, body, .thumbnail, .caption {
    font-family: 'Montserrat', sans-serif;
@@ -51,7 +50,6 @@
  .thumbnail a>img {
    height: 150px;
  }
-
 
 
  // .meal-plan {
@@ -111,6 +109,14 @@
    box-shadow: 0 8px 6px -6px black;
  }
 
+// heart
+.fa-heart:before {
+  font-size: 30px;
+}
+
+.fa-heart:hover{
+  color: #CB100D;
+}
 
  // resource show page
  .resource-h1 h1 {
