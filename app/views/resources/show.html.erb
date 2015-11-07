@@ -14,5 +14,10 @@
 <div class="row">
   <div class = "col-md-12 show-text">
     <p> <%= @resource.notes %> </p>
+
+    <%= link_to "Previous", @previous_resource, :class => "btn btn-primary"%>
+
+    <%= link_to "Next", @next_resource, :class => "btn btn-primary" %>
+
   </div>
 </div>
