@@ -1,0 +1,18 @@
+
+<div class = "row">
+  <div class = "col-md-12 resource-h1">
+    <h1> <%= @resource.title %> </h1>
+  </div>
+</div>
+
+<div class="row">
+  <div class = "col-md-12 show-img" >
+    <%= image_tag @resource.image, { class: "center-block imageBoxShadow" } %>
+  </div>
+</div>
+
+<div class="row">
+  <div class = "col-md-12 show-text">
+    <p> <%= @resource.notes %> </p>
+  </div>
+</div>

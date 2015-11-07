@@ -26,12 +26,10 @@
    background-color: #F5F3EE;
  }
 
-
  body {
    margin: auto 0;
    padding-top: 60px;
  }
-
 
  h3 {
    font-size: 18px;
@@ -78,7 +76,7 @@
 
  }
 
- .meal-home img {
+ .resource-home img {
    height: 500px;
  }
 
@@ -87,9 +85,20 @@
    box-shadow: 0 8px 6px -6px black;
  }
 
+ .show-img {
+  //  width: 65%;
+ }
+
  .show-img img {
-   width: 400px;
+  //  width: 100%;
    text-align: center;
+   padding: 10px;
+ }
+
+
+ .show-text p {
+   padding-left: 10%;
+   padding-right: 10%;
  }
 
  /* Meal Plan Page */
@@ -169,3 +178,13 @@
      color: #4A96AD;
      text-decoration: none;
   }
+
+
+// resource show page
+.resource-h1 h1 {
+  text-align: center;
+}
+
+.resource-image img {
+
+}
