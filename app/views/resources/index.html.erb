@@ -1,11 +1,38 @@
+<!-- Jumbotron Header -->
+<header class="jumbotron hero-spacer background-jumbo">
+  <h1>My Happy Place</h1>
+  <p>Create your own happy place to help manage your stress levels and anxiety at work.</p>
+</header>
 
+<hr>
 
-<% @resources.each do |resource| %>
+<!-- Title -->
+<div class="row">
+    <div class="col-lg-12">
+    </div>
+</div>
+<!-- /.row -->
 
-  <%= link_to (image_tag (resource.image)), resource_path(resource), :class => "resource-home imageBoxShadow" %>
-  <h3> <%= resource.title %> </h3>
-    <p>
-  <%= link_to "View", resource_path(resource),  :class => "btn btn-primary" %>
-    <a href="#" class="btn btn-default">More Info</a>
-      </p>
-<% end %>
+<div class="row text-center">
+
+  <% @resources.each do | resource | %>
+    <div class="col-md-3 col-sm-6 hero-feature">
+      <div class="thumbnail">
+        <%= link_to (image_tag (resource.image)), resource_path(resource), :class => "resource-home imageBoxShadow" %>
+
+        <div class="caption">
+          <h3> <%= resource.title %> </h3>
+            <p>
+              <%= resource.notes %>
+            </p>
+            <p>
+            <%= link_to "View", resource_path(resource),  :class => "btn btn-primary" %>
+            <!-- <a href=" '< link_to resource_path(resource) %> ' " class="btn btn-primary">View</a> -->
+            <a href="#" class="btn btn-default">More Info</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+<!-- /.row -->
