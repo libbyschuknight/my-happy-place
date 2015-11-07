@@ -1,0 +1,11 @@
+
+
+<% @resources.each do |resource| %>
+
+  <%= link_to (image_tag (resource.image)), resource_path(resource), :class => "resource-home imageBoxShadow" %>
+  <h3> <%= resource.title %> </h3>
+    <p>
+  <%= link_to "View", resource_path(resource),  :class => "btn btn-primary" %>
+    <a href="#" class="btn btn-default">More Info</a>
+      </p>
+<% end %>
